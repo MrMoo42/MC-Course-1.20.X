@@ -9,8 +9,7 @@
   "block.mccourse.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
   "block.mccourse.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
   "block.mccourse.end_pink_garnet_ore": "End Stone Pink Garnet Ore",
+  "block.mccourse.sound_block": "Sound Block",
 
-  "itemgroup.pink_garnet_group": "Pink Garnet Course Group",
-
-  "item.mccourse.metal_detector.no_valuables": "No valuables found!"
+  "itemgroup.pink_garnet_group": "Pink Garnet Course Group"
 }

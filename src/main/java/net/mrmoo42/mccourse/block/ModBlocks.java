@@ -10,6 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.mrmoo42.mccourse.MCCourseMod;
+import net.mrmoo42.mccourse.block.custom.SoundBlock;
 
 public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
@@ -24,6 +25,9 @@ public static final Block NETHER_PINK_GARNET_ORE = registerBlock("nether_pink_ga
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 public static final Block END_PINK_GARNET_ORE = registerBlock("end_pink_garnet_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

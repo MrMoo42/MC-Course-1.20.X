@@ -35,7 +35,7 @@ public class MetalDetectorItem extends Item {
             }
 
             if (!foundBlock) {
-                player.sendMessage(Text.translatable("item.mccourse.metal_detector.no_valuables"));
+                player.sendMessage(Text.literal("No Valuables Found!"));
             }
         }
 
