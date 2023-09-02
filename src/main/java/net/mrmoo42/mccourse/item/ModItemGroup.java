@@ -21,6 +21,10 @@ public class ModItemGroup {
                 entries.add(ModItems.PEAT_BRICK);
 
                 entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                entries.add(ModBlocks.PINK_GARNET_STAIRS);
+                entries.add(ModBlocks.PINK_GARNET_SLAB);
+                entries.add(ModBlocks.PINK_GARNET_BUTTON);
+                entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
                 entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                 entries.add(ModBlocks.PINK_GARNET_ORE);
                 entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
